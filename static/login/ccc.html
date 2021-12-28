@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="never">　
+    <title>Title</title>
+    <link rel="icon" href="../common/img/icon.ico" type="image/x-icon">
+    <script src="../common/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<div id="a1"></div>
+<script>
+    $(function (){
+        var url="http://8.136.185.236/Wallpaper/daily?page=";
+        $.get(url+1,
+            function(data){
+                login(data);
+                alert(1)
+            })
+    })//初始化页面
+</script>
+</body>
+</html>
